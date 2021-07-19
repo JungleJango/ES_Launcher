@@ -26,13 +26,13 @@ emulationstation native arguments
 --debug                         more logging, show console on Windows
 --scrape                        scrape using command line interface
 --windowed                      can be used with --resolution
---fullscreen-borderless			depends on --windowed
+--fullscreen-borderless			    depends on --windowed
 --vsync [1/on or 0/off]         turn vsync on or off (default is on)
 --max-vram [size]               Max VRAM to use in Mb before swapping. 0 for unlimited
---force-kid             		Force the UI mode to be Kid
---force-kiosk           		Force the UI mode to be Kiosk
+--force-kid             	    	Force the UI mode to be Kid
+--force-kiosk           		    Force the UI mode to be Kiosk
 --force-disable-filters         Force the UI to ignore applied filters in gamelist
---home							Force the .emulationstation folder (windows)
+--home							            Force the .emulationstation folder (windows)
 --help, -h                      summon a sentient, angry tuba
 ______________________________________________________________________________________________________________________________________________________________________
 Optional "es_launcher.ini" (lowercase) file can be created with the following entries
