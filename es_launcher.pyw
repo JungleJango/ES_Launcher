@@ -201,40 +201,6 @@ class NewPopen(sp.Popen):
             self.get_audio_session().SetMute(0, None)
 
 
-def choose_env_var_or_base_var(env_var):
-    if getattr(sys, 'frozen', False):
-        return dirname(sys.executable)
-    elif __file__:
-        return dirname(__file__)
-    # if isdir(es_dir):
-    #     environ[env_var] = es_dir
-    # elif es_dir == '':
-    #     var_path = environ.get(env_var)
-    #     if var_path is None:
-    #         environ[env_var] = es_dir = getcwd()  # Setting environment variable
-    #     elif isdir(var_path):
-    #         es_dir = var_path
-    #     else:
-    #         check_button(f'Environment Variable "ESdir" points to an invalid path. The current location '
-    #                      f'{getcwd()} will be used instead.')
-    #         if getattr(sys, 'frozen', False):
-    #             environ[env_var] = es_dir = dirname(sys.executable)
-    #         elif __file__:
-    #             environ[env_var] = es_dir = dirname(__file__)
-    #         choose_env_var_or_base_var(env_var)
-    # else:
-    #     button = check_button(f'"{es_dir}" is an invalid path for an EmulationStation directory. Check "es_dir=" entry'
-    #                            'in "es_launcher.ini" file or "--es=" argument value.\nWould you like to try to create it?'
-    #                            'or rather use the current directory as ES root?', title='Invalid es_dir value!',
-    #                            buttons=['Yes, create it', 'Use Current Dir', 'Cancel'])
-    #     if button == 'Yes, create it':
-    #         makedirs(es_dir)
-    #         choose_env_var_or_base_var(es_dir)
-    #     elif button == 'Use Current Dir':
-    #         es_dir = ''
-    #         choose_env_var_or_base_var(es_dir)
-
-
 def scanrecurse(basedir):
     file_list = []
     for f in scandir(basedir):
