@@ -1,6 +1,7 @@
 # ES_Launcher
 A simple launcher to make EmulationStation (forks) for windows more reliable and enjoyable
 ______________________________________________________________________________________________________________________________________________________________________
+
 Arguments options:
 --es=							        | Sets ES root dir absolute path
 --ro=			      				  | Sets rooms root dir. Can be absolute like "c:\rooms" or relative like "..\rooms" (..\ means one lv up relative to ES root dir)
