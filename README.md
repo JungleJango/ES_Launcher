@@ -49,9 +49,9 @@ __A simple launcher to make EmulationStation (forks) for windows more reliable a
 <li>play_vlc_embedded=				| True or False (Default)</li>
 <li>resolution=						| 1920x1080 need windowed</li></ul>
 <hr>
-By default any intro.mp4 in ES root directory will be used as intro.
-python 3.9.5 (win10 only) script non-standard modules dependancy:
-pymsgbox
-requests
-playsound
-pycaw
+<li>By default any intro.mp4 in ES root directory will be used as intro.</li>
+<li>python 3.9.5 (win10 only) script non-standard modules dependancy:</li>
+<li>pymsgbox</li>
+<li>requests</li>
+<li>playsound</li>
+<li>pycaw</li>
