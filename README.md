@@ -1,6 +1,6 @@
 # ES_Launcher
-__A simple launcher to make EmulationStation (forks) for windows more reliable and enjoyable__
-<hr>
+
+_A simple launcher to make EmulationStation (forks) for windows more reliable and enjoyable_
 
 ## Arguments options:
 
@@ -17,7 +17,6 @@ __A simple launcher to make EmulationStation (forks) for windows more reliable a
 <li>--dont_hide_es				| Don't hide ES window while playing video on foreground for smoother transition</li>
 <li>--play_vlc_embedded			| Directly embeds vlc video stream in emulationstation main window. Smoother trasion but if vlc takes too long to start becomes a little messy</li>
 <li>--resolution=1920x1080x60	| Sets Resolution before running EmulationStation width, height, frequency hz</li></ul>
-<hr>
 
 ## EmulationStation native arguments:
 
@@ -38,7 +37,6 @@ __A simple launcher to make EmulationStation (forks) for windows more reliable a
 <li>--force-disable-filters			Force the UI to ignore applied filters in gamelist</li>
 <li>--home							Force the .emulationstation folder (windows)</li>
 <li>--help, -h						summon a sentient, angry tuba</li></ul>
-<hr>
 
 ## Optional "es_launcher.ini" (lowercase) file can be created with the following entries
 
@@ -55,7 +53,7 @@ __A simple launcher to make EmulationStation (forks) for windows more reliable a
 <li>dont_hide_es=					| True or False (Default)</li>
 <li>play_vlc_embedded=				| True or False (Default)</li>
 <li>resolution=						| 1920x1080 need windowed</li></ul>
-<hr>
+
 <li>By default any intro.mp4 in ES root directory will be used as intro.</li>
 <li>python 3.9.5 (win10 only) script non-standard modules dependancy:</li>
 <li>pymsgbox</li>
