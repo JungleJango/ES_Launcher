@@ -2,6 +2,8 @@
 
 _A simple launcher to make EmulationStation (forks) for windows more reliable and enjoyable_
 
+This launcher works with Batocera fork of EmulationStation that can be found here https://github.com/fabricecaruso/batocera-emulationstation/releases
+
 ## Arguments options:
 
 <ul><li>--es=					|Sets ES root dir absolute path</li>
