@@ -12,6 +12,7 @@ This launcher works with Batocera fork of EmulationStation that can be found her
 <li>--sp=						| Sets splash screens dir. Same as above</li>
 <li>--rt						| Random Theme selection within themes root folder .emulationstation\themes</li>
 <li>-e							| Exclusive mode kills explorer.exe process to clear screen from any window then when ES is finished brings it back again</li>
+<li>-s							| Silence dialog boxes</li>
 <li>--exf						| Exclusive Fullscreen</li>
 <li>--novid						| Do play any startup video or splash video</li>
 <li>--no_boot_videos			| Don't play startup_videos dir files</li>
